@@ -1,3 +1,4 @@
+[Live Demo](https://quirky-roentgen-9b2943.netlify.app/)
 # React Bmi Calculator
 This app calculates your weight level by calculating your target based on your weight height.
 
