@@ -8,4 +8,3 @@ This app calculates your weight level by calculating your target based on your w
 
 -Then the application can be started with the command "npm run start".
 
-[Live Demo](https://quirky-roentgen-9b2943.netlify.app/)
