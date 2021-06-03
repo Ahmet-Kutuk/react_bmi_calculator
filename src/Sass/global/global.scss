@@ -113,3 +113,17 @@ html,body{
 		}
 	}
 }
+
+.title{
+	color:#6565e7;
+	font-weight: 700;
+	font-size:24px;
+	margin-bottom:20px;
+	position:relative;
+	right: 40px;
+
+	@media (min-width: 768px) {
+		position:static;
+
+	}
+}
