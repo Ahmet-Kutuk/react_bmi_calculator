@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 import {Wrapper,ResultContainer,Title,Info,ReCalculate,Diet,ResultImg} from '../../styles/pages/result';
 import resultimg from '../../assets/undraw_result_5583.svg'
 function Result() {
-    const height = localStorage.getItem('height');
-
+    let height = localStorage.getItem('height');
+    height= height/100;
     const weight = localStorage.getItem('weight');
 
 

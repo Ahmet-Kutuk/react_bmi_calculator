@@ -17,9 +17,9 @@ html,body{
     cursor:pointer;
 	padding:1rem;
 	border-radius:0.5rem;
-	width:250px;
+	width:300px;
 	position:absolute;
-	right:40px;
+	right:50px;
 	bottom:60px;
 	
 	@media (min-width: 768px) {
@@ -33,11 +33,11 @@ html,body{
 }
 
 .accordion {
-	width: 300px;
-	margin: 70px -144px auto;
+	width: 280px;
+	margin: 70px -130px auto;
 
 	@media (min-width: 768px) {
-		width: 400px;
+	width: 400px;
 	margin: 70px auto;
 	}
 
@@ -45,7 +45,7 @@ html,body{
 	.item {
 		position: relative;
 		margin-bottom: 40px;
-		padding-right: 150px;
+		padding-right: 20px;
 		border:none;
 		border-bottom: 1px solid rgb(175,103,233) ;
 		
@@ -58,16 +58,20 @@ html,body{
 			border-radius: 3px;
 			display: flex;
 			align-items: center;
-			padding: 0 15px;
+			padding: 0 40px;
 			font-size: 14px;
 			font-weight: 500;
 			color:#6565e7;
 			font-weight: 700;
 			img {
-				margin-right: 10px;
 				transition: 400ms all;
 				position:absolute;
-				right:0;
+				left: 300px;
+
+				@media (min-width: 768px) {
+					left: 350px;
+				}
+
 				
 			}
 		}
@@ -81,10 +85,12 @@ html,body{
 			transition: 400ms all;
 			color:gray;
 			font-weight: 500;
-			width: 300px;
+			position:relative;
+			width: 200x;
 
 			@media (min-width: 768px) {
 				width: 400px;
+				position: static;
 			}
 		}
 		input {

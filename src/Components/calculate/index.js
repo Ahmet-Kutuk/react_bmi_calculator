@@ -28,8 +28,8 @@ function Calculate() {
                 <Title>Calculator</Title>
                 <Form>       
                      <FormItem>
-                        <Input type="number" onChange={(e) => setHeight(e.target.value)}  placeholder="Height" />
-                        <Input type="number" onChange={(e) => setWeight(e.target.value)}  placeholder="Weight" />
+                        <Input type="number" onChange={(e) => setHeight(e.target.value)}  placeholder="Height(cm)" />
+                        <Input type="number" onChange={(e) => setWeight(e.target.value)}  placeholder="Weight(kg)" />
                     </FormItem>
                     <Link to="/result"><FormButton>Calculate</FormButton></Link>
                     <Link to="/info"><InfoButton >Whats Bmi?</InfoButton></Link>
