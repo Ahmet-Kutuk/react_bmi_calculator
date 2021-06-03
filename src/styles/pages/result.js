@@ -55,7 +55,7 @@ display:none;
 export const Title = styled.h1`
   color: ${({result}) =>result>30 ? 'red':null};
   color:${({result}) =>result>25 && result<30 ? 'orange':null};
-  color:${({result}) =>result>=18.5 && result<25 ? 'blue':null};
+  color:${({result}) =>result>=18.5 && result<25 ? 'green':null};
   color:${({result}) =>result<18.5? 'gray':null};
   font-weight:700;
   position:relative;
