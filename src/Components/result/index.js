@@ -15,7 +15,7 @@ function Result() {
                 <ResultImg src={resultimg} alt=""></ResultImg>
                 <ResultContainer>
                 <span className="title">Your Bmi</span>    
-                <Title result={result.toFixed(0)}>{result.toFixed(0)}</Title>
+                <Title result={result.toFixed(2)}>{result.toFixed(0)}</Title>
                 <Info>Underweight: smaller than 18.5</Info>
                 <Info>Normal Weight: 18.5 - 24.9</Info>
                 <Info>Overweight: 25 - 29.9</Info>
