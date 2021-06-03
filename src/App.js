@@ -1,15 +1,14 @@
 import Calculate from './Components/calculate';
-import {Switch,Route} from 'react-router-dom';
+import {ContextProvider} from './Context';
+
 function App() {
+ 
   return (
 
-    <>
+    <ContextProvider>
         <Calculate />
-    </>
+    </ContextProvider>
   );
 }
-<Switch>
-  <Route path="/" component={Calculate} />
-</Switch>
 
 export default App;

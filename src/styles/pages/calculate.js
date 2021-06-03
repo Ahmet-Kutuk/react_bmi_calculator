@@ -148,15 +148,7 @@ export const Form = styled.form`
 
 
 `;
-// export const Label = styled.label`
-//     position:absolute;
-//     left:1rem;
-//     top:1rem;
-//     padding:0 .25rem;
-//     background-color:#fff;
-//     color:#6565e7;
-//     transition:.3s;
-// `;
+
 
 export const Input = styled.input`    
     
