@@ -109,6 +109,7 @@ export const ReCalculate = styled.button`
 
 
 export const Diet =styled.button`
+  display:${props => props.result>=25 ? "block" : "none"};
   width:300px;
   position:relative;
   right:150px;

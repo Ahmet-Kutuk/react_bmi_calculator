@@ -21,7 +21,7 @@ function Result() {
                 <Info>Overweight: 25 - 29.9</Info>
                 <Info>Obesity: 30 or greater</Info>
                 <Link to="/"><ReCalculate>Re Calculate</ReCalculate></Link>
-                <Link to="/diet"><Diet>Show me Diet List</Diet></Link>
+                <Link to="/diet"><Diet result={result.toFixed(0)}>Show me Diet List</Diet></Link>
                 </ResultContainer>
             </Wrapper>
         </>
